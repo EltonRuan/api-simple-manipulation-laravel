@@ -1,8 +1,8 @@
-# Projeto de API Simples de Login com Laravel 🚀
+# Simple Login API Project with Laravel 🚀
 
-Este projeto é uma API desenvolvida para um sistema simples de login, com um retorno didático e base para futuras funcionalidades. A API foi construída em Laravel e permite a criação de cadastros, validação de logins e logouts, além de oferecer acesso a rotas protegidas por autorização via token Bearer.
+This project is an API developed for a simple login system, designed as a learning tool and foundation for future features. The API was built in Laravel and allows for user registration, login, and logout validation, as well as access to routes protected by Bearer token authorization.
 
-## Tecnologias e Ferramentas Utilizadas 🛠️
+## Technologies and Tools Used 🛠️
 
 - PHP
 - MySQL
@@ -11,83 +11,83 @@ Este projeto é uma API desenvolvida para um sistema simples de login, com um re
 - Visual Studio Code
 - Postman
 - MySQL Workbench
-- XAMPP (ou Apache)
+- XAMPP (or Apache)
 
-## Anotações Importantes ⚠️
+## Important Notes ⚠️
 
-Antes de iniciar, certifique-se de ter todas as tecnologias e ferramentas instaladas.
+Before starting, make sure all required technologies and tools are installed.
 
-## Instalação
+## Installation
 
-1. Clone o repositório:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/seu-usuario/repositorio.git
+   git clone https://github.com/your-username/repository.git
    ```
 
-2. Acesse o diretório do projeto (recomendado que esteja no servidor local, como o XAMPP):
+2. Enter the project directory (recommended to be on a local server, such as XAMPP):
    ```bash
-   cd repositorio
+   cd repository
    ```
 
-3. Instale ou atualize as dependências do Laravel:
+3. Install or update Laravel dependencies:
    ```bash
    composer install
-   # ou
+   # or
    composer update
    ```
 
-4. Atualize as informações do arquivo `.env`:
+4. Update the `.env` file with your database details:
    ```plaintext
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
-   DB_DATABASE=nome_do_banco
+   DB_DATABASE=database_name
    DB_USERNAME=root
-   DB_PASSWORD=sua_senha
+   DB_PASSWORD=your_password
    ```
 
-5. Gere a chave de aplicativo:
+5. Generate the application key:
    ```bash
    php artisan key:generate
    ```
 
-6. Crie a estrutura do banco de dados:
+6. Create the database structure:
    ```bash
    php artisan migrate
    ```
 
-7. Execute o servidor de desenvolvimento:
+7. Start the development server:
    ```bash
    php artisan serve
    ```
 
-## Funcionamento, Rotas e Métodos 📌
+## Functionality, Routes, and Methods 📌
 
-> **Observação**: Este projeto não possui uma interface gráfica. Todas as interações devem ser feitas diretamente no Postman. Adicione os seguintes cabeçalhos para todas as requisições:
+> **Note**: This project does not have a graphical interface. All interactions should be done directly in Postman. Add the following headers to all requests:
 
 - `Accept`: `application/json`
 - `Content-Type`: `application/json`
 
-### Rotas e Exemplos de Uso 🚦
+### Routes and Usage Examples 🚦
 
-#### Cadastro de Usuário
+#### User Registration
 
-- **URL**: `http://127.0.0.1:8000/api/usuarios/cadastrar`
-- **Método**: `POST`
+- **URL**: `http://127.0.0.1:8000/api/users/register`
+- **Method**: `POST`
 - **Body** (JSON):
   ```json
   {
-    "nome": "Elton Ruan",
+    "name": "Elton Ruan",
     "email": "eltonruan@example.com",
-    "senha": "123456",
-    "senha_confirmation": "123456"
+    "password": "123456",
+    "password_confirmation": "123456"
   }
   ```
-- **Exemplo de Resposta**:
+- **Example Response**:
   ```json
   {
-    "usuario": {
-        "nome": "Elton Ruan",
+    "user": {
+        "name": "Elton Ruan",
         "email": "eltonruan@example.com",
         "updated_at": "2024-11-08T14:53:13.000000Z",
         "created_at": "2024-11-08T14:53:13.000000Z",
@@ -97,50 +97,50 @@ Antes de iniciar, certifique-se de ter todas as tecnologias e ferramentas instal
   }
   ```
 
-#### Login de Usuário 🔑
+#### User Login 
 
-- **URL**: `http://127.0.0.1:8000/api/usuarios/login`
-- **Método**: `POST`
-- **Headers**: `Authorization: Bearer [token_gerado]`
+- **URL**: `http://127.0.0.1:8000/api/users/login`
+- **Method**: `POST`
+- **Headers**: `Authorization: Bearer [generated_token]`
 - **Body** (JSON):
   ```json
   {
     "email": "eltonruan@example.com",
-    "senha": "123456"
+    "password": "123456"
   }
   ```
-- **Exemplo de Resposta**:
+- **Example Response**:
   ```json
   {
     "token": "4|oMEgkuqUUoZWoECNZYAhEXqMc8T42zK24OcVSx3Dce4217e3",
-    "message": "Usuário autenticado com sucesso!"
+    "message": "User authenticated successfully!"
   }
   ```
 
-#### Logout de Usuário 🚪
+#### User Logout 
 
-- **URL**: `http://127.0.0.1:8000/api/usuarios/logout`
-- **Método**: `POST`
-- **Headers**: `Authorization: Bearer [token_gerado]`
-- **Exemplo de Resposta**:
+- **URL**: `http://127.0.0.1:8000/api/users/logout`
+- **Method**: `POST`
+- **Headers**: `Authorization: Bearer [generated_token]`
+- **Example Response**:
   ```json
   {
-    "message": "Logout bem-sucedido"
+    "message": "Logout successful"
   }
   ```
 
-#### Rota Protegida 🔒
+#### Protected Route 
 
 - **URL**: `http://127.0.0.1:8000/api/protected-resource`
-- **Método**: `GET`
-- **Headers**: `Authorization: Bearer [token_gerado]`
-- **Exemplo de Resposta**:
+- **Method**: `GET`
+- **Headers**: `Authorization: Bearer [generated_token]`
+- **Example Response**:
   ```json
   {
-    "message": "Esta é uma rota protegida",
+    "message": "This is a protected route",
     "user": {
         "id": 1,
-        "nome": "Elton Ruan",
+        "name": "Elton Ruan",
         "email": "eltonruan@example.com",
         "created_at": "2024-11-08T14:53:13.000000Z",
         "updated_at": "2024-11-08T16:47:16.000000Z"
@@ -148,6 +148,8 @@ Antes de iniciar, certifique-se de ter todas as tecnologias e ferramentas instal
   }
   ```
 
-## Considerações Finais
+## Final Considerations
 
-Fico contente de poder proporcionar esse projeto aqui, e espero poder ajudar aqueles que também estão nessa jornada. Espero que gostem! Qualquer dúvida, estarei ansioso para responder! 😊
+I’m happy to provide this project here, and I hope it helps those on a similar journey. Enjoy it! For any questions, I’ll be eager to help! 😊
+
+**All rights to this project are owned by me.**
