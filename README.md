@@ -21,7 +21,7 @@ Before starting, make sure all required technologies and tools are installed.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/repository.git
+   git clone https://github.com/EltonRuan/api-simple-manipulation-laravel
    ```
 
 2. Enter the project directory (recommended to be on a local server, such as XAMPP):
