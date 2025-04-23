@@ -9,7 +9,7 @@
     <a href="#about-this-project">ABOUT THIS PROJECT</a> |
     <a href="#technologies-and-tools-used-️">TECHNOLOGIES AND TOOLS USED</a> |
     <a href="#installation">INSTALLATION</a> |
-    <a href="#functionality-routes-and-methods-️">FUNCTIONALITY, ROUTES AND METHODS</a> |
+    <a href="#functionality-routes-and-methods">FUNCTIONALITY, ROUTES AND METHODS</a> |
     <a href="#final-considerations">FINAL CONSIDERATIONS</a>
   </p>
 </nav>
@@ -111,7 +111,7 @@ Before starting, make sure all required technologies and tools are installed.
    php artisan serve
    ```
 
-## ## <h2 id="">FUNCTIONALITY, ROUTES, AND METHODS 📌</h2>
+## ## <h2 id="functionality-routes-and-methods">FUNCTIONALITY, ROUTES, AND METHODS 📌</h2>
 
 
 > **Note**: This project does not have a graphical interface. All interactions should be done directly in Postman. Add the following headers to all requests:
