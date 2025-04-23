@@ -24,21 +24,34 @@ Whether you're developing APIs, full-stack apps, or microservices, Laravel offer
 <img src="https://skillicons.dev/icons?i=laravel,&perline=20" />
 
 ## ABOUT THIS PROJECT
-This project is a Simple Login API built with Laravel, designed to serve as a foundational structure for user authentication in web or mobile applications. Its primary goal is to demonstrate how to implement secure authentication using modern Laravel features such as API routes, Bearer token authorization, and request validation.
 
-The API includes essential functionalities like:
+This project is a **Simple Login API** built with **Laravel**, designed to serve as a foundational structure for user authentication in web or mobile applications. Its primary goal is to demonstrate how to implement secure authentication using modern Laravel features such as API routes, Bearer token authorization, and request validation.
 
-User registration with input validation
+The API includes the following essential functionalities:
 
-Secure login with token generation via Laravel Sanctum
+<ul>
+  <li><strong>User registration</strong> with input validation</li>
+  <li><strong>Secure login</strong> with token generation via Laravel Sanctum</li>
+  <li><strong>Logout</strong> functionality that revokes tokens</li>
+  <li><strong>Protected routes</strong> that require valid authentication tokens to access</li>
+</ul>
 
-Logout functionality that revokes tokens
+This project is ideal for:
 
-Protected routes that require valid authentication tokens to access
+<ul>
+  <li>Beginners looking to understand Laravel’s approach to API development</li>
+  <li>Developers needing a clean and simple starting point to build more complex authentication systems</li>
+</ul>
 
-This project is ideal for beginners looking to understand Laravel’s approach to API development, or for developers who need a clean and simple starting point to build more complex authentication systems.
+The codebase is:
 
-The codebase is clean, modular, and easy to extend—making it a great learning resource or boilerplate for real-world projects.
+<ul>
+  <li>Clean</li>
+  <li>Modular</li>
+  <li>Easy to extend</li>
+</ul>
+
+It serves as a great learning resource or boilerplate for real-world projects.
 
 ## Technologies and Tools Used 🛠️
 
