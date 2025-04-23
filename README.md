@@ -53,7 +53,7 @@ The codebase is:
 
 It serves as a great learning resource or boilerplate for real-world projects.
 
-## <h2 id="installation">Technologies and Tools Used 🛠️</h2>
+## <h2 id="">TECHNOLOGIES AND TOOLS USED 🛠️</h2>
 
 - PHP
 - MySQL
@@ -68,8 +68,7 @@ It serves as a great learning resource or boilerplate for real-world projects.
 
 Before starting, make sure all required technologies and tools are installed.
 
-## Installation
-
+## <h2 id="installation">INSTALLATION</h2>
 1. Clone the repository:
    ```bash
    git clone https://github.com/EltonRuan/api-simple-manipulation-laravel
@@ -112,7 +111,8 @@ Before starting, make sure all required technologies and tools are installed.
    php artisan serve
    ```
 
-## Functionality, Routes, and Methods 📌
+## ## <h2 id="">FUNCTIONALITY, ROUTES, AND METHODS 📌</h2>
+
 
 > **Note**: This project does not have a graphical interface. All interactions should be done directly in Postman. Add the following headers to all requests:
 
@@ -199,7 +199,7 @@ Before starting, make sure all required technologies and tools are installed.
   }
   ```
 
-## Final Considerations
+## FINAL CONSIDERATIONS
 <p>This Laravel project was created to demonstrate secure user authentication using Laravel's modern features, such as API routes and Bearer token authorization.</p>
 <p>The goal was to implement essential authentication functionalities, ensuring clean, maintainable code while following best development practices.</p>
 <p>Feel free to explore and expand this project as a starting point for your own applications. It serves as a solid foundation for learning and building more complex authentication systems.</p>
