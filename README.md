@@ -64,7 +64,7 @@ It serves as a great learning resource or boilerplate for real-world projects.
 - MySQL Workbench
 - XAMPP (or Apache)
 
-## Important Notes ⚠️
+## Important Notes
 
 Before starting, make sure all required technologies and tools are installed.
 
