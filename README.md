@@ -1,3 +1,19 @@
+<div align='center'>
+ <img style="width:100%" src="https://capsule-render.vercel.app/api?type=soft&height=200&color=FFFFFF&text=Simple%20Login%20API%20Project%20with%20Laravel&fontSize=50&fontAlign=50&strokeWidth=0&descAlignY=80&stroke=000000">
+</div>
+
+<nav align="center">
+  <h2>🔗 NAVIGATION </h2>
+  <p>
+   <a href="#about-codeigniter">ABOUT CODEIGNITER</a> |
+   <a href="#about-this-project">ABOUT THIS PROJECT</a> |
+   <a href="#features">FEATURES</a> |
+   <a href="#setup">SETUP</a> |
+   <a href="#code-explanation">CODE EXPLANATION</a> |
+   <a href="#final-considerations">FINAL CONSIDERATIONS</a>
+  </p>
+</nav>
+
 # Simple Login API Project with Laravel 🚀
 
 This project is an API developed for a simple login system, designed as a learning tool and foundation for future features. The API was built in Laravel and allows for user registration, login, and logout validation, as well as access to routes protected by Bearer token authorization.
