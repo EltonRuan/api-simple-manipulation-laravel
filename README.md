@@ -53,7 +53,7 @@ The codebase is:
 
 It serves as a great learning resource or boilerplate for real-world projects.
 
-## <h2 id="">TECHNOLOGIES AND TOOLS USED 🛠️</h2>
+## <h2 id="">TECHNOLOGIES AND TOOLS USED </h2>
 
 - PHP
 - MySQL
@@ -111,7 +111,7 @@ Before starting, make sure all required technologies and tools are installed.
    php artisan serve
    ```
 
-<h2 id="functionality-routes-and-methods">FUNCTIONALITY, ROUTES, AND METHODS 📌</h2>
+<h2 id="functionality-routes-and-methods">FUNCTIONALITY, ROUTES, AND METHODS</h2>
 
 
 > **Note**: This project does not have a graphical interface. All interactions should be done directly in Postman. Add the following headers to all requests:
@@ -119,7 +119,7 @@ Before starting, make sure all required technologies and tools are installed.
 - `Accept`: `application/json`
 - `Content-Type`: `application/json`
 
-### Routes and Usage Examples 🚦
+### Routes and Usage Examples 
 
 #### User Registration
 
