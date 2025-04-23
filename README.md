@@ -7,9 +7,9 @@
   <p>
     <a href="#about-laravel">ABOUT LARAVEL</a> |
     <a href="#about-this-project">ABOUT THIS PROJECT</a> |
-    <a href="#features">FEATURES</a> |
-    <a href="#setup">SETUP</a> |
-    <a href="#code-explanation">CODE EXPLANATION</a> |
+    <a href="#tecnologies-and-tools-used">TECNOLOGIES AND TOOLS USED</a> |
+    <a href="#installation">INSTALLATION</a> |
+    <a href="#code-explanation">FUNCTIONALITY, ROUTES AND METHODS</a> |
     <a href="#final-considerations">FINAL CONSIDERATIONS</a>
   </p>
 </nav>
