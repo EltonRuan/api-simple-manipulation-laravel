@@ -111,7 +111,7 @@ Before starting, make sure all required technologies and tools are installed.
    php artisan serve
    ```
 
-## ## <h2 id="functionality-routes-and-methods">FUNCTIONALITY, ROUTES, AND METHODS 📌</h2>
+<h2 id="functionality-routes-and-methods">FUNCTIONALITY, ROUTES, AND METHODS 📌</h2>
 
 
 > **Note**: This project does not have a graphical interface. All interactions should be done directly in Postman. Add the following headers to all requests:
