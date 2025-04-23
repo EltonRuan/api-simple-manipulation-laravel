@@ -5,12 +5,12 @@
 <nav align="center">
   <h2>🔗 NAVIGATION </h2>
   <p>
-   <a href="#about-laravel">ABOUT LARAVEL</a> |
-   <a href="#about-this-project">ABOUT THIS PROJECT</a> |
-   <a href="#features">FEATURES</a> |
-   <a href="#setup">SETUP</a> |
-   <a href="#code-explanation">CODE EXPLANATION</a> |
-   <a href="#final-considerations">FINAL CONSIDERATIONS</a>
+    <a href="#about-laravel">ABOUT LARAVEL</a> |
+    <a href="#about-this-project">ABOUT THIS PROJECT</a> |
+    <a href="#features">FEATURES</a> |
+    <a href="#setup">SETUP</a> |
+    <a href="#code-explanation">CODE EXPLANATION</a> |
+    <a href="#final-considerations">FINAL CONSIDERATIONS</a>
   </p>
 </nav>
 
