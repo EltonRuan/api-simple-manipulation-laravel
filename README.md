@@ -23,6 +23,23 @@ Whether you're developing APIs, full-stack apps, or microservices, Laravel offer
 
 <img src="https://skillicons.dev/icons?i=laravel,&perline=20" />
 
+## ABOUT THIS PROJECT
+This project is a Simple Login API built with Laravel, designed to serve as a foundational structure for user authentication in web or mobile applications. Its primary goal is to demonstrate how to implement secure authentication using modern Laravel features such as API routes, Bearer token authorization, and request validation.
+
+The API includes essential functionalities like:
+
+User registration with input validation
+
+Secure login with token generation via Laravel Sanctum
+
+Logout functionality that revokes tokens
+
+Protected routes that require valid authentication tokens to access
+
+This project is ideal for beginners looking to understand Laravel’s approach to API development, or for developers who need a clean and simple starting point to build more complex authentication systems.
+
+The codebase is clean, modular, and easy to extend—making it a great learning resource or boilerplate for real-world projects.
+
 ## Technologies and Tools Used 🛠️
 
 - PHP
