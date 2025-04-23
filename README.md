@@ -3,13 +3,13 @@
 </div>
 
 <nav align="center">
-  <h2>🔗 NAVIGATION </h2>
+  <h2>🔗 NAVIGATION</h2>
   <p>
     <a href="#about-laravel">ABOUT LARAVEL</a> |
     <a href="#about-this-project">ABOUT THIS PROJECT</a> |
-    <a href="#tecnologies-and-tools-used">TECNOLOGIES AND TOOLS USED</a> |
+    <a href="#technologies-and-tools-used-️">TECHNOLOGIES AND TOOLS USED</a> |
     <a href="#installation">INSTALLATION</a> |
-    <a href="#code-explanation">FUNCTIONALITY, ROUTES AND METHODS</a> |
+    <a href="#functionality-routes-and-methods-️">FUNCTIONALITY, ROUTES AND METHODS</a> |
     <a href="#final-considerations">FINAL CONSIDERATIONS</a>
   </p>
 </nav>
@@ -53,7 +53,7 @@ The codebase is:
 
 It serves as a great learning resource or boilerplate for real-world projects.
 
-## Technologies and Tools Used 🛠️
+## <h2 id="installation">Technologies and Tools Used 🛠️</h2>
 
 - PHP
 - MySQL
