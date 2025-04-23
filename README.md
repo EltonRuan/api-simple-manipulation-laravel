@@ -5,7 +5,7 @@
 <nav align="center">
   <h2>🔗 NAVIGATION </h2>
   <p>
-   <a href="#about-codeigniter">ABOUT CODEIGNITER</a> |
+   <a href="#about-laravel">ABOUT LARAVEL</a> |
    <a href="#about-this-project">ABOUT THIS PROJECT</a> |
    <a href="#features">FEATURES</a> |
    <a href="#setup">SETUP</a> |
@@ -14,9 +14,14 @@
   </p>
 </nav>
 
-# Simple Login API Project with Laravel 🚀
+## ABOUT LARAVEL
+Laravel is a modern, elegant PHP framework built to simplify the process of developing robust web applications. It follows the Model-View-Controller (MVC) architectural pattern and emphasizes clean, readable syntax and developer productivity.
 
-This project is an API developed for a simple login system, designed as a learning tool and foundation for future features. The API was built in Laravel and allows for user registration, login, and logout validation, as well as access to routes protected by Bearer token authorization.
+Laravel comes with powerful built-in tools such as routing, middleware, authentication, caching, and database management. With its expressive syntax and extensive ecosystem—including tools like Laravel Sanctum, Laravel Jetstream, and Eloquent ORM—it allows developers to rapidly build scalable, secure, and maintainable applications.
+
+Whether you're developing APIs, full-stack apps, or microservices, Laravel offers a solid foundation and a great developer experience.
+
+<img src="https://skillicons.dev/icons?i=laravel,&perline=20" />
 
 ## Technologies and Tools Used 🛠️
 
@@ -164,8 +169,14 @@ Before starting, make sure all required technologies and tools are installed.
   }
   ```
 
-## Final Considerations
+<h2>Final Considerations</h2>
+<p>This CodeIgniter project was developed as a personal learning exercise and a resource to help other developers understand how a PHP MVC framework can be used to build functional and structured web applications.</p>
+<p>The goal was to implement core CRUD features using clean code, following the MVC architecture principles, while also integrating good development practices like version control and modularization.</p>
+<p>Feel free to explore, modify, and expand this project. Whether you're using it to learn, to prototype something new, or as a foundation for a bigger idea, I hope it brings value to your development journey.</p>
+<p>Stay curious, keep experimenting, and continue building — that's how great developers grow!</p>
+<br><br>
+<p><strong>© 2025 EltonRuan. All rights reserved.</strong></p>
 
-I’m happy to provide this project here, and I hope it helps those on a similar journey. Enjoy it! For any questions, I’ll be eager to help! 😊
-
-**All rights to this project are owned by me.**
+<footer align="center">
+ <img style="width:100%" src="https://capsule-render.vercel.app/api?type=soft&height=20&color=FFFFFF&fontSize=50&fontAlign=50&strokeWidth=0&descAlignY=80&stroke=000000&reversal=false&section=footer">
+</footer>
