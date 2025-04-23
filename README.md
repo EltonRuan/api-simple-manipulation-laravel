@@ -199,24 +199,13 @@ Before starting, make sure all required technologies and tools are installed.
   }
   ```
 
-<h2>Final Considerations</h2>
-<p>This Laravel project was developed as a personal learning exercise and as a resource to help other developers understand how to implement secure user authentication and build structured APIs using Laravel.</p>
-<p>The goal was to:</p>
-<ul>
-  <li>Implement core authentication features such as registration, login, and logout using Laravel’s modern tools.</li>
-  <li>Follow good development practices, such as modularization and validation, to ensure clean and maintainable code.</li>
-  <li>Demonstrate the power of Laravel's built-in features like API routes, Bearer token authentication, and request validation.</li>
-</ul>
-<p>Feel free to:</p>
-<ul>
-  <li>Explore, modify, and expand this project as a learning resource.</li>
-  <li>Use it as a foundation for building more complex authentication systems or for web/mobile applications.</li>
-</ul>
-<p>Whether you’re using it to learn, prototype something new, or kickstart a larger project, I hope this code proves useful in your development journey.</p>
-<p>Stay curious, keep experimenting, and never stop building — that’s how great developers grow!</p>
+## Final Considerations
+<p>This Laravel project was created to demonstrate secure user authentication using Laravel's modern features, such as API routes and Bearer token authorization.</p>
+<p>The goal was to implement essential authentication functionalities, ensuring clean, maintainable code while following best development practices.</p>
+<p>Feel free to explore and expand this project as a starting point for your own applications. It serves as a solid foundation for learning and building more complex authentication systems.</p>
+<p>Keep experimenting and building — that’s how great developers grow!</p>
 <br><br>
 <p><strong>© 2025 EltonRuan. All rights reserved.</strong></p>
-
 
 <footer align="center">
  <img style="width:100%" src="https://capsule-render.vercel.app/api?type=soft&height=20&color=FFFFFF&fontSize=50&fontAlign=50&strokeWidth=0&descAlignY=80&stroke=000000&reversal=false&section=footer">
